@@ -5,8 +5,14 @@
 	d.把目录变为仓库 git init
 2.文件添加到版本库
 	a.文件添加到仓库 git add 文件名
-	b.提交文件版本 git commit -m "说明"
+	b.提交文件版本 git commit 文件名 -m "说明"
 3.git status 掌握仓库当前状态，知道哪些文件被修改
 4.git diff 文件名 查看文件具体被修改的内容
 5.git 中文乱码 https://blog.csdn.net/lhl_blog/article/details/82415413?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
-6.
+6.git 退出vim
+	a.按c进入编辑状态
+	b.点击esc,双击大写Z,即可退出
+7.版本回退
+	a.git log 文件名 查找该文件历史所有版本
+	b.git reset --hard (commit id) 回退到指定版本
+	c.git reflog 文件名 查找该文件未来所有版本
