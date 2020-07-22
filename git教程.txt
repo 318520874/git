@@ -3,20 +3,27 @@
 	b.cd learngit
 	c.显示当前目录 pwd
 	d.把目录变为仓库 git init
+	
 2.文件添加到版本库
 	a.文件添加到仓库 git add 文件名
 	b.提交文件版本 git commit 文件名 -m "说明"
+	
 3.git status 掌握仓库当前状态，知道哪些文件被修改
 4.git diff 文件名 查看文件具体被修改的内容
+
 5.git 中文乱码 https://blog.csdn.net/lhl_blog/article/details/82415413?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+
 6.git 退出vim
 	a.按c进入编辑状态
 	b.点击esc,双击大写Z,即可退出
+	
 7.版本回退
 	a.git log 文件名 查找该文件历史所有版本
 	b.git reset --hard (commit id) 回退到指定版本
 	c.git reflog 文件名 查找该文件未来所有版本
+	
 8.撤销修改（尚未提交修改到暂存区）git checkout -- 文件名
+
 9.撤销修改（已经提交修改到暂存区）git reset HEAD 文件名
 又到了小结时间。
 
@@ -29,3 +36,8 @@
 	a.在github新建一个库，名称记为A
 	b.关联本地库与远程库，在本地库下运行命令git remote add origin git@github.com:318520874/A.git
 	C.把本地库内容推送到远程库 git push -u origin master
+	
+11.从远程库克隆到本地库 git clone git@github.com:318520874/远程库名称.git
+
+
+
